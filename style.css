@@ -350,6 +350,36 @@ margin-bottom:2rem;
 .client__card{
 border-radius: 5rem;
 }
+/* LATEST PROJECT */
+.client{
+  padding:5rem 0;
+}
+.client__title{
+  text-align: center;
+}
+.client__wrapper{
+  text-align:center;
+}
+.client__project h3{
+font-size:5rem;
+font-weight:500;
+margin-bottom:5rem;
+position: absolute;
+}
+.client__project p{
+font-size:2rem;
+font-weight:300;
+margin-bottom:2rem;
+}
+.client__title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:5rem;
+}
+.client__title{
+border-radius: 5rem;
+}
+
 /* REPEATABLE PATTERNS */
   :root{
     --green: #7d9a68;
